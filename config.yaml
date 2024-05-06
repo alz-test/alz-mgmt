@@ -19,6 +19,8 @@ archetypes: # `caf-enterprise-scale` module, add inputs as listed on the module 
   default_location: ${default_location}
   disable_telemetry: true
   deploy_management_resources: true
+  deploy_connectivity_resources: false
+  deploy_identity_resources: false
   configure_management_resources:
     location: ${default_location}
     settings:
